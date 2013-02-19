@@ -1,0 +1,1 @@
+int HbListFromXML(struct hb_entry ***pHomebrew_list, char *xmlString, int *homebrews_count);

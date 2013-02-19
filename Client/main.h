@@ -1,0 +1,7 @@
+enum menu_state
+{
+	MAIN_MENU,
+	VIEW_HOMEBREW,
+	VIEW_SCREENSHOT
+};
+

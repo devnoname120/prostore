@@ -1,0 +1,133 @@
+body
+{
+	font-family: sans-serif;
+	font-size:14px;
+
+	background-image:url(./image/bg.jpg);
+	background-repeat:repeat;
+	padding:10px;
+}
+
+/* Our boxes */
+.box
+{
+	text-align: center;
+
+	padding-top: 4px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+
+	margin:10px;
+
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.userbox
+{
+	/* Make it flash out of the background */
+	/* background-color: white; */
+	background-image:url(./image/bg_dark.jpg);
+
+	/* Avoid getting oversized borders */
+	width:150px;
+
+	/* Stays on upper right corner */
+	margin-right: 0px;
+	margin-left: auto;
+	
+	padding: 5px;
+	
+
+	border-width: 3px;
+
+	border-color: blue;
+	border-style: solid;
+	border-radius: 10px;
+	
+}
+.userbox b
+{
+	color: rgb(250,15,15);
+}
+.userbox strong
+{
+	color: rgb(46,192,51);
+}
+/* Our hb list */
+
+.hblist
+{
+	border: 1px solid black;
+}
+.hblist th, .hblist td
+{
+	border: 1px solid black;
+}
+
+/* Our dummy tables */
+
+.infotable
+{
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+.infotable th, .infotable td
+{
+	text-align: left;
+	border: 0;
+}
+
+h1
+{
+	color: #000000;
+}
+
+h2
+{
+	color: #000000;
+}
+h3
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Our fake forms having the appearence of a link to send post instead of get */
+
+.sublink {
+/* Force to use our background */
+background-image:url(./image/bg.jpg);
+background-repeat:repeat;
+
+border: 0;
+text-decoration: underline;
+color: #00f;
+font-size: 12px;
+font-family: Verdana, Arial, sans-serif;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+.sublink:active {
+padding: 0;
+}
+.formlink {
+margin: 0;
+padding: 0;
+}
+
+
+/* If there is a message telling something succeeded */
+.success
+{
+	color: #76ce33;
+}
+.error
+{
+	color: #FF0000;
+}	
